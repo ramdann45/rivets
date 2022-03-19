@@ -48,7 +48,7 @@
                   <img src="img/seller1.png" alt="catalog 1" class="img-fluid">
                 </div>
                 <h3>
-                  <a href="#">Ozymandias</a>
+                  <a href="#">myxyomatosis</a>
                 </h3>
                 <p>100.000</p>
               </div>
