@@ -297,6 +297,39 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+/*--------------------------------------------------------------
+# style box-search
+--------------------------------------------------------------*/
+
+.box-search{
+  position: fixed;
+  top: 71px;
+  width: 100%;
+  z-index: 99;
+  height: 50px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+
+@media (min-width: 1300px) {
+  .box-search form {
+    margin-right: 160px;
+  }
+}
+
+@media (max-width: 556px){
+  .box-search {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 304px){
+  .box-search {
+    top: 125px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -1047,7 +1080,6 @@ a {
 
 /*Active link*/
 .active {
-  color: #fff;
   color: yellow;
 }
 
@@ -1171,7 +1203,7 @@ a {
   }
 }
 
-@media ( max-width: 350px ) {
+@media ( max-width: 305px ) {
   #logo {
     /* display: none; */
     width: 100%;

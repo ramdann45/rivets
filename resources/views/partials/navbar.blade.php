@@ -59,6 +59,14 @@
       </div>
   </div>
 </header>
+
+{{-- box-search --}}
+<div class="box-search container-fluid d-none">
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-primary" type="submit">Cari</button>
+    </form>
+</div>
 <!-- End Header -->
 
 

@@ -236,9 +236,9 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
   /**
    * Buy tickets select the ticket type on click
    */
-  on('show.bs.modal', '#buy-ticket-modal', function(event) {
-    select('#buy-ticket-modal #ticket-type').value = event.relatedTarget.getAttribute('data-ticket-type')
-  })
+  // on('show.bs.modal', '#buy-ticket-modal', function(event) {
+  //   select('#buy-ticket-modal #ticket-type').value = event.relatedTarget.getAttribute('data-ticket-type')
+  // })
 
   /**
    * Animation on scroll
@@ -269,7 +269,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 //   kotak.style.display = "none";
 // });
 
-// nasbar visibility
+// navbar visibility
 const navbar = document.getElementById('navbar');
 const icon = document.getElementById('header-toggle');
 
@@ -282,3 +282,9 @@ icon.addEventListener('click' , function(){
 // x.addEventListener('click' , function(){
 //   x.classList.toggle('bi-x');
 // });
+
+const iconSearch = document.querySelector('.search .bi');
+const boxSearch = document.querySelector('.box-search');
+iconSearch.addEventListener('click' , function(){
+  boxSearch.classList.toggle('d-none');
+})
